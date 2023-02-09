@@ -1,0 +1,28 @@
+baseURL = "" 
+languageCode = "en-us"
+title = "Stung Codes"
+theme = "hugo-theme-tokiwa"
+
+[params]
+description = """
+Tokiwa-iro is the theme color of this site.
+"""
+math = true # for introducing $KaTEX$
+bannerFont = "fonts/exampleFont" # custom your own font for the title.
+postDateFormat = "1-2-2006" # override custom date format posts.
+
+[menu]
+# Shown in the side menu.
+  [[menu.main]]
+    name = "Posts"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+
+[social]
+twitter="http://twitter.com/"
+github="http://github.com/"
